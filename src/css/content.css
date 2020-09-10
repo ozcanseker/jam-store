@@ -1,0 +1,231 @@
+.Overview{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    align-items: stretch;
+    overflow-y: auto;
+}
+
+.Product {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 5%;
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
+}
+
+.Product > p {
+    font-size: 2em;
+    flex: 4;
+    margin: 1%;
+
+}
+
+.Product > img {
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.Product > div {
+    display: flex;
+    width: 100%;
+}
+
+.Product > div > div {
+    flex: 1;
+    border: 1px solid black;
+    font-size: 1.25em;
+    height: 3rem;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Product > div > div > p{
+    margin: auto;
+}
+
+.ContactMe {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    overflow-y: auto;
+    padding: 2% 0;
+}
+
+.contactMeTextSpace{
+    width: 60%;
+    background: white;
+    margin: auto;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
+}
+
+.contactMeTextSpace > p {
+    font-size: 1.2em;
+}
+
+#douchebag {
+    float: right;
+    width: 200px;
+    margin: 0 2%;
+}
+
+.contactMeTextSpace > img {
+    margin-top: 3%;
+    width: 80%;
+}
+
+.ProductDesc {
+    height: 100%;
+    display: flex;
+    padding: 2% 3% 2% 8%;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.ProductDesc > div {
+    flex: 1;
+    margin: 2%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
+}
+
+#productDesc{
+    flex: 2;
+    padding: 2%;
+}
+
+#productDesc > p{
+    margin: 5% 0;
+}
+
+#productDesc > img{
+    width: 80%;
+}
+
+#buySpace{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#buySpace > h1{
+    margin: 3%;
+}
+
+#buySpace > img{
+    width: 94%;
+    margin: 3%;
+}
+
+#buySpace > div{
+    margin: 6% 2% 2%;
+    height: 4rem;
+    width: 96%;
+    font-size: 2em;
+    background: #E44F4F;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#ShoppingcartScreen {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ShoppingcartScreenProducts {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ShoppingcartProduct {
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
+
+    height: 8rem;
+    width: 50rem;
+    margin: 2% auto;
+    background: white;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ShoppingcartProduct > img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.ShoppingcartProduct > p{
+    font-size: 2rem;
+    flex: 1;
+}
+
+.ShoppingcartProduct > img{
+    height: 100%;
+}
+
+.ShoppingcartProduct > div{
+    width: 5rem;
+    font-size: 1.5em;
+    height: 100%;
+}
+
+.ShoppingcartProduct > div > *{
+    border: 2px solid black;
+    height: 33%;
+}
+
+.ShoppingcartProduct > div > div:hover{
+    background: #E44F4F;
+    color: white;
+    cursor: pointer;
+}
+
+
+#ShoppingcartScreenButton {
+    margin: auto 5% 5% auto;
+    height: 4rem;
+    font-size: 2em;
+    background: #E44F4F;
+    color: white;
+    border-radius: 10px;
+    padding: 2%;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#ShoppingcartScreenButton:hover {
+    background: #f45F5F;
+    cursor: pointer;
+}
+

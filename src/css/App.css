@@ -1,0 +1,128 @@
+.App {
+    height: 100%;
+    display: flex;
+    overflow-y: hidden;
+}
+
+#navbar {
+    width: 350px;
+    background: url("../resources/picnic_blanket.jpg");
+    display: flex;
+    flex-direction: column;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+#contentScreen {
+    width: 100%;
+    background: linear-gradient( rgba(230,230,230,1),
+    rgba(230,230,230,0)), url("../resources/background_content.jpg"),
+    rgba(250,250,250,1);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto 100%;
+}
+
+#logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background: white;
+    box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
+}
+
+#logo > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    transform: translatex(-50%);
+    background: white;
+    border-radius: 50%;
+    box-shadow: 10px 0px 5px 3px rgba(0,0,0,0.2);
+}
+
+#logo > img {
+    width: 100%;
+    z-index: 1;
+}
+
+#nameLogo {
+    transform: translateX(12%) rotate(-3deg);
+    border-radius: 30%;
+}
+
+#jamJar {
+    transform: translateX(18%) rotate(5deg);
+    border-radius: 50%;
+}
+
+.Nav {
+    margin: 4% 0 2%;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 3%;
+    box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
+}
+
+.Nav:hover, .Nav *:hover{
+    cursor: pointer;
+    color: white;
+    background: #E44F4F;
+}
+
+.Nav > p {
+    font-size: 3em;
+    z-index: 1;
+}
+
+.Nav > div {
+    position: absolute;
+    width: 3rem;
+    height: 100%;
+    left: 100%;
+    transform: translatex(-50%);
+    background: white;
+    border-radius: 50%;
+    padding: 10%;
+    box-shadow: 10px 0px 5px 5px rgba(0,0,0,0.2);
+}
+
+.ShoppingCart {
+    margin-top: auto;
+    text-align: center;
+    position: relative;
+}
+
+.ShoppingCart > img {
+    width: 70%;
+}
+
+.ShoppingCart > p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translateX(-50%);
+    color: white;
+    font-size: 2em;
+}
+
+.ShoppingCart > p::after {
+    content: "";
+    position: absolute;
+    transform: translateX(-75%);
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    width: 150%;
+    border-radius: 50%;
+    z-index: -1;
+    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.5);
+}
+

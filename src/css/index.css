@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+html, body, #root {
+    height: 100%;
+}
