@@ -19,6 +19,10 @@
     box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
 }
 
+.Product > p:hover, .Product > img:hover  {
+    cursor: pointer;
+}
+
 .Product > p {
     font-size: 2em;
     flex: 4;
@@ -35,6 +39,12 @@
 .Product > div {
     display: flex;
     width: 100%;
+}
+
+.Product > div > div:hover {
+    cursor: pointer;
+    background: #E44F4F;
+    color: white;
 }
 
 .Product > div > div {
@@ -145,6 +155,11 @@
     align-content: center;
 }
 
+#buySpace > div:hover {
+    cursor: pointer;
+    background: #f45F5F;
+}
+
 #ShoppingcartScreen {
     height: 100%;
 
@@ -229,3 +244,18 @@
     cursor: pointer;
 }
 
+#Buysummarbuttonback {
+    color: white;
+    background: #E44F4F;
+    margin: 6% auto 0;
+    width: 80%;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#Buysummarbuttonback:hover {
+    cursor: pointer;
+    background: #f45F5F;
+}

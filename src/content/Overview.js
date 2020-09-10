@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/content.css';
+import {useHistory} from "react-router-dom";
 
 let products = [
     {
@@ -43,7 +44,9 @@ function Overview() {
 }
 
 function Product(props) {
-    return (<div className={"Product"}>
+    const history = useHistory();
+
+    return (<div className={"Product"} onClick={() => history.push("/product")}>
         <p>{props.productname}</p>
         <img src={require(`../resources/${props.image}`)} alt={`Image of ${props.name}`}/>
         <div>

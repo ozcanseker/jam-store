@@ -10,7 +10,7 @@ function AboutMe() {
     return (<div className={"ContactMe"}>
         <div className={"contactMeTextSpace"}>
             <h1>Who am I?</h1><br/>
-            <img id={"douchebag"} src={Douchebag}/>
+            <img id={"douchebag"} src={Douchebag} alt={"Image of me"}/>
             <p>
                 My full name is Esteban Julio Ricardo Montoya de la Rosa Ramirez.<br/>
                 <br/>
@@ -20,7 +20,7 @@ function AboutMe() {
             <p>
                 I love fruit. I love fruit so mucht that I have my own garden full of fruit, just here in Apeldoorn.<br/>
             </p>
-            <img src = {Garden}/>
+            <img src = {Garden} alt={"image of garden"}/>
             <p>
                 I just love fruit. When I moved to Apeldoorn from my home country Luxenburg, I really had a difficult time. My parents disowned me becuase I burned down our house again. You know what they say:<br/>
                 <br/>
@@ -38,7 +38,7 @@ function AboutMe() {
                 Address: Koninklijk Park 1, 7315 JA Apeldoorn<br/>
                 <br/>
             </p>
-            <img src={LocationImage}/>
+            <img src={LocationImage} alt={"Koninklijk Park 1, 7315 JA Apeldoorn"}/>
         </div>
     </div>)
 }

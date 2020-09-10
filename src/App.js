@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
     Route, useHistory,Switch
 } from "react-router-dom";
@@ -15,10 +15,15 @@ import AboutMe from "./content/Aboutme";
 import ProductDesc from "./content/ProductDesc";
 import BuySummary from "./content/BuySummary";
 import ShoppingcartScreen from "./content/ShoppingcartScreen";
+import {hotjar} from "react-hotjar";
 
 
 function App() {
     console.log("version 1.0.0")
+
+    useEffect(() => {
+        hotjar.initialize(1984920, 6);
+    }, [])
 
     return (
         <div className="App">

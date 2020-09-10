@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/content.css';
+import {useHistory} from "react-router-dom";
 
 let products = [
     {
@@ -17,16 +18,18 @@ let products = [
 function ShoppingcartScreen() {
     let overView = products.map(product => {
         return (
-            <ShoppingcartProduct name={product.name} amount={product.amount} image={product.image}/>
+            <ShoppingcartProduct key ={product.name} name={product.name} amount={product.amount} image={product.image}/>
         )
     });
 
+    const history = useHistory()
+
     return (
-        <div id={"ShoppingcartScreen"}>
+        <div id={"ShoppingcartScreen"} >
             <div id={"ShoppingcartScreenProducts"}>
                 {overView}
             </div>
-            <div id={"ShoppingcartScreenButton"}>
+            <div id={"ShoppingcartScreenButton"} onClick={() => history.push("/buysummary")}>
                 <p>Finish purchase →</p>
             </div>
         </div>
@@ -50,7 +53,6 @@ function ShoppingcartProduct(props) {
                 </div>
             </div>
         </div>
-
     )
 }
 

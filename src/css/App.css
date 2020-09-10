@@ -72,7 +72,7 @@
     box-shadow: 0 5px 8px 5px rgba(0,0,0,0.2);
 }
 
-.Nav:hover, .Nav *:hover{
+.Nav:hover *,.Nav:hover{
     cursor: pointer;
     color: white;
     background: #E44F4F;
@@ -99,6 +99,10 @@
     margin-top: auto;
     text-align: center;
     position: relative;
+}
+
+.ShoppingCart > *:hover {
+    cursor: pointer;
 }
 
 .ShoppingCart > img {
