@@ -2,27 +2,29 @@ import React, {useEffect} from 'react';
 import {
     Route, useHistory,Switch
 } from "react-router-dom";
+import ReactGA from 'react-ga';
+import {hotjar} from "react-hotjar";
 
 import './css/App.css';
-
-import Overview from "./content/Overview";
-import ContactMe from "./content/Contactme";
-
 import NameLogo from './resources/Knipsel.PNG';
 import JamJar from './resources/JamJar.jpg';
 import Basket from './resources/images.png'
+
 import AboutMe from "./content/Aboutme";
 import ProductDesc from "./content/ProductDesc";
 import BuySummary from "./content/BuySummary";
 import ShoppingcartScreen from "./content/ShoppingcartScreen";
-import {hotjar} from "react-hotjar";
-
+import Overview from "./content/Overview";
+import ContactMe from "./content/Contactme";
 
 function App() {
-    console.log("version 1.0.3")
+    console.log("version 1.0.4")
 
     useEffect(() => {
         hotjar.initialize(1988359, 6);
+
+        ReactGA.initialize('UA-177857886-1');
+        ReactGA.pageview(window.location.pathname + window.location.search);
     }, [])
 
     return (
