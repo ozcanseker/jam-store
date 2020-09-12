@@ -19,10 +19,10 @@ import {hotjar} from "react-hotjar";
 
 
 function App() {
-    console.log("version 1.0.0")
+    console.log("version 1.0.3")
 
     useEffect(() => {
-        hotjar.initialize(1984920, 6);
+        hotjar.initialize(1988359, 6);
     }, [])
 
     return (
