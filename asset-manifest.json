@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jam-store/static/css/main.7fa70d33.chunk.css",
-    "main.js": "/jam-store/static/js/main.3cfb90a3.chunk.js",
-    "main.js.map": "/jam-store/static/js/main.3cfb90a3.chunk.js.map",
+    "main.js": "/jam-store/static/js/main.51040fe6.chunk.js",
+    "main.js.map": "/jam-store/static/js/main.51040fe6.chunk.js.map",
     "runtime-main.js": "/jam-store/static/js/runtime-main.9cd5da6c.js",
     "runtime-main.js.map": "/jam-store/static/js/runtime-main.9cd5da6c.js.map",
     "static/js/2.f1bc8e07.chunk.js": "/jam-store/static/js/2.f1bc8e07.chunk.js",
     "static/js/2.f1bc8e07.chunk.js.map": "/jam-store/static/js/2.f1bc8e07.chunk.js.map",
     "index.html": "/jam-store/index.html",
-    "precache-manifest.af627005da327861294b05857dc3f43b.js": "/jam-store/precache-manifest.af627005da327861294b05857dc3f43b.js",
+    "precache-manifest.b8b595f0f6a509b3491bdd601677495a.js": "/jam-store/precache-manifest.b8b595f0f6a509b3491bdd601677495a.js",
     "service-worker.js": "/jam-store/service-worker.js",
     "static/css/main.7fa70d33.chunk.css.map": "/jam-store/static/css/main.7fa70d33.chunk.css.map",
     "static/js/2.f1bc8e07.chunk.js.LICENSE.txt": "/jam-store/static/js/2.f1bc8e07.chunk.js.LICENSE.txt",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.9cd5da6c.js",
     "static/js/2.f1bc8e07.chunk.js",
     "static/css/main.7fa70d33.chunk.css",
-    "static/js/main.3cfb90a3.chunk.js"
+    "static/js/main.51040fe6.chunk.js"
   ]
 }
