@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/jam-store/static/css/main.7fa70d33.chunk.css",
+    "main.js": "/jam-store/static/js/main.3cfb90a3.chunk.js",
+    "main.js.map": "/jam-store/static/js/main.3cfb90a3.chunk.js.map",
+    "runtime-main.js": "/jam-store/static/js/runtime-main.9cd5da6c.js",
+    "runtime-main.js.map": "/jam-store/static/js/runtime-main.9cd5da6c.js.map",
+    "static/js/2.f1bc8e07.chunk.js": "/jam-store/static/js/2.f1bc8e07.chunk.js",
+    "static/js/2.f1bc8e07.chunk.js.map": "/jam-store/static/js/2.f1bc8e07.chunk.js.map",
+    "index.html": "/jam-store/index.html",
+    "precache-manifest.af627005da327861294b05857dc3f43b.js": "/jam-store/precache-manifest.af627005da327861294b05857dc3f43b.js",
+    "service-worker.js": "/jam-store/service-worker.js",
+    "static/css/main.7fa70d33.chunk.css.map": "/jam-store/static/css/main.7fa70d33.chunk.css.map",
+    "static/js/2.f1bc8e07.chunk.js.LICENSE.txt": "/jam-store/static/js/2.f1bc8e07.chunk.js.LICENSE.txt",
+    "static/media/4f5b590daa3e9c01f61f383599c763ed.jpg": "/jam-store/static/media/4f5b590daa3e9c01f61f383599c763ed.f296a8f2.jpg",
+    "static/media/JamJar.jpg": "/jam-store/static/media/JamJar.ed7ebb8d.jpg",
+    "static/media/Knipsel.PNG": "/jam-store/static/media/Knipsel.78065259.PNG",
+    "static/media/appelsaus.png": "/jam-store/static/media/appelsaus.bf45721c.png",
+    "static/media/applewine.png": "/jam-store/static/media/applewine.e51676b8.png",
+    "static/media/background_content.jpg": "/jam-store/static/media/background_content.d2262a5d.jpg",
+    "static/media/blackberry.jpg": "/jam-store/static/media/blackberry.0a460d39.jpg",
+    "static/media/blackberry_jam.png": "/jam-store/static/media/blackberry_jam.6cc7d331.png",
+    "static/media/blackberry_jello.png": "/jam-store/static/media/blackberry_jello.7864e60f.png",
+    "static/media/e7dc440d75bb181e96384e2ce51f74b5.jpg": "/jam-store/static/media/e7dc440d75bb181e96384e2ce51f74b5.5bc91a67.jpg",
+    "static/media/images.png": "/jam-store/static/media/images.07c2247c.png",
+    "static/media/locationimage.PNG": "/jam-store/static/media/locationimage.2111f68b.PNG",
+    "static/media/picnic_blanket.jpg": "/jam-store/static/media/picnic_blanket.862d7a75.jpg",
+    "static/media/stawbery jam.jpg": "/jam-store/static/media/stawbery jam.0a460d39.jpg",
+    "static/media/stawbery jello.jpg": "/jam-store/static/media/stawbery jello.8668774e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cd5da6c.js",
+    "static/js/2.f1bc8e07.chunk.js",
+    "static/css/main.7fa70d33.chunk.css",
+    "static/js/main.3cfb90a3.chunk.js"
+  ]
+}
